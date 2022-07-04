@@ -1,0 +1,19 @@
+name: "Obfuscate with Luraph"
+author: "Sam (ripped off cold's action)"
+description: "Allows you to obfuscate your Lua script files with Luraph"
+inputs:
+    path:
+        description: "The file to obfuscate"
+        required: true
+    apiKey:
+        description: "Your API key"
+        required: true
+outputs:
+    file:
+        description: "The obfuscated file"
+runs:
+    using: "node12"
+    main: "src/index.js"
+branding:
+    icon: "shield"
+    color: "green"
