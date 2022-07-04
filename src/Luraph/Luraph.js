@@ -23,7 +23,6 @@ module.exports = class {
                     "USE_DEBUG_LIBRARY": true,
                     "INTENSE_VM_STRUCTURE": false,
                     "TARGET_VERSION": "Luau",
-                    "VM_COMPRESSION": false,
                     "VM_ENCRYPTION": false,
                     "DISABLE_LINE_INFORMATION": false,
                     "ENABLE_GC_FIXES": false
